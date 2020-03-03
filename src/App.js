@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 // Components
-import SearchInput from './components/SearchInput'
-import PictureList from './components/MemeList'
+import SearchInput from "./components/SearchInput";
+import PictureList from "./components/MemeList";
 
 function App() {
   return (
     <div>
-      <SearchInput/>
-      <PictureList/>
+      <SearchInput />
+      <PictureList />
     </div>
   );
 }
