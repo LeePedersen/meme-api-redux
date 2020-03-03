@@ -1,1 +1,1 @@
-export const SEARCH_QUOTE = 'SEARCH_QUOTE';
+export const RECEIVE_QUOTE = "RECEIVE_QUOTE";

@@ -11,6 +11,7 @@ function SearchInput({ dispatch }) {
         onSubmit={e => {
           e.preventDefault();
           dispatch(searchForQuote(keyword.value));
+          keyword.value = "";
         }}
       >
         <input

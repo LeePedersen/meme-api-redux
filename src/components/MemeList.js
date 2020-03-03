@@ -1,5 +1,4 @@
 import React from "react";
-// import Meme from './Meme';
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
@@ -9,7 +8,7 @@ const MemeList = state => {
     <div>
       <h4>Memes</h4>
       {Object.keys(state.memeList).map(memeId => {
-        let meme = state.memeList[memeId].text;
+        let meme = state.memeList[memeId].quote;
         let url = state.memeList[memeId].url;
         return (
           <div>
@@ -23,7 +22,7 @@ const MemeList = state => {
 };
 
 MemeList.propTypes = {
-  memeList: PropTypes.object
+  memeList: PropTypes.array
 };
 
 const mapStateToProps = state => {
