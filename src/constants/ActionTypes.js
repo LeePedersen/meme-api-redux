@@ -1,0 +1,1 @@
+export const SEARCH_QUOTE = 'SEARCH_QUOTE';
